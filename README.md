@@ -4,11 +4,13 @@
 
 專案畫面
 ---
-![image](https://github.com/CHUCHUDAN/user-login/blob/main/public/img/index.png)
+![image](https://github.com/CHUCHUDAN/user-login-cookie/blob/main/public/img/index.png)
 -------
-![image](https://github.com/CHUCHUDAN/user-login/blob/main/public/img/welcome.png)
+![image](https://github.com/CHUCHUDAN/user-login-cookie/blob/main/public/img/login.png)
 -------
-![image](https://github.com/CHUCHUDAN/user-login/blob/main/public/img/error.png)
+![image](https://github.com/CHUCHUDAN/user-login-cookie/blob/main/public/img/dashboard.png)
+-------
+![image](https://github.com/CHUCHUDAN/user-login-cookie/blob/main/public/img/error.png)
 -------
 Features - 產品功能
 -----
@@ -31,11 +33,11 @@ Installing - 專案安裝流程
 ----
 1.打開你的 terminal，Clone 此專案至本機電腦
 
-    git clone https://github.com/CHUCHUDAN/user-login.git
+    git clone https://github.com/CHUCHUDAN/user-login-cookie.git
     
 2.開啟終端機(Terminal)，進入存放此專案的資料夾
 
-    cd user-login
+    cd user-login-cookie
     
 3.安裝 express 套件
 
@@ -60,7 +62,7 @@ Installing - 專案安裝流程
     
 8.如需使用種子資料請輸入指令
 
-    在 Terminal 輸入 npm run seed 指令，因為信箱資料有設定維一值所以種子資料無法重複植入，如需植入請先刪除再植入
+    在 Terminal 輸入 npm run seed 指令，因為信箱資料有設定唯一值所以種子資料無法重複植入，如需植入請先刪除再植入
     
 Contributor - 專案開發人員
 -----
