@@ -1,0 +1,31 @@
+<section>
+  <div class="container">
+    <div class="login-title">
+      User Login
+    </div>
+    <form novalidate action="/login" method="POST" class="form-login">
+      <div class="input-wrapper">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" id="email" name="email" placeholder="Email" class="form-login-input form-control" required>
+          <div class="invalid-feeback">
+            請填寫正確的信箱格式
+          </div>
+          <div class="valid-feeback">
+            格式正確
+          </div>
+      </div>
+      <div class="input-wrapper">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" id="password" name="password" placeholder="Password" class="form-login-input form-control" required>
+          <div class="invalid-feeback">
+            密碼為必填
+          </div>
+          <div class="valid-feeback">
+            格式正確
+          </div>
+      </div>
+      <button type="submit" class="action form-login-button">login</button>
+    </form>
+  </div>
+</section>
+<script src="/javascripts/login.js"></script>
